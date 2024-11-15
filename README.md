@@ -18,6 +18,12 @@ Sqlparse <br>
 Pymongo <br>
 re <br>
 
+# Schema Migration
+![image](https://github.com/user-attachments/assets/179dc575-0b2f-4e28-8e3a-1bb9b5155005)
+
+# Data Mapping
+![image](https://github.com/user-attachments/assets/4709dc32-9e3e-43c6-b647-f68d1d13ce95)
+
 # Execution
 Create DB in Sqlite with table structure and data.<br>
 Run mongo db using mongod command in command prompt.<br>

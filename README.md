@@ -19,9 +19,22 @@ Pymongo <br>
 re <br>
 
 # Schema Migration
+The SchemaMigration class automates the migration of data from an SQLite database to MongoDB, preserving relationships and dependencies between tables through foreign key analysis. The migration involves:
+
+Extracting the schema and table relationships.
+Determining the order of table migrations based on dependencies.
+Renaming columns for clarity during migration.
+Transferring data from SQLite to MongoDB.
+
 ![image](https://github.com/user-attachments/assets/179dc575-0b2f-4e28-8e3a-1bb9b5155005)
 
 # Data Mapping
+The SQL-to-NoSQL Query Translation and Execution System is designed to facilitate the execution of SQL queries on a NoSQL database. This is achieved by intercepting SQL queries, converting them to a NoSQL equivalent format, and executing them on a MongoDB database. The system comprises three core components: the Mediator, the Convert module, and the Database Metadata.
+Enable seamless integration of SQL-based applications with NoSQL databases.
+Translate SQL queries into NoSQL queries while preserving the semantic integrity of the operations.
+Support CRUD operations (SELECT, INSERT, UPDATE, DELETE).
+Provide formatted results for easier integration with relational systems.
+
 ![image](https://github.com/user-attachments/assets/4709dc32-9e3e-43c6-b647-f68d1d13ce95)
 
 # Execution
